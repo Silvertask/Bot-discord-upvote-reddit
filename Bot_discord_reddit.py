@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import Config_bot_reddit
 import discord 
 from discord.ext import commands
 
@@ -22,4 +23,4 @@ async def on_message(message):
             print(message.content)
     
 
-client.run("MTA3MTQ0NzA3NjMwODc5NTQ4Mg.G84v67.g5QV9cHMoMc_udH9B3wjhO-q--MloE9eemcnxI")
+client.run(Config_bot_reddit.Token_discord)
